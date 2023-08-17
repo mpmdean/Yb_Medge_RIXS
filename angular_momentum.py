@@ -15,9 +15,9 @@ def cf_stevens(J, B):
 
     Returns
     -------
-    cf: 2d complex array, shape=(N, N)
-        The matrix form of crystal field Hamiltonian in (J, Jz) basis for fixed J.
-        Where N = 2*J+1.
+    cf: 2d complex array, shape=(N, N), where N = 2*J+1
+        The matrix form of crystal field Hamiltonian in complex Harmonic Ylm basis.
+        
 
     Notes
     -----
